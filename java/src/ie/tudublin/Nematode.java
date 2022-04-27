@@ -5,6 +5,7 @@ import processing.data.TableRow;
 
 public class Nematode  extends PApplet{
 
+    // create variables
     private String name;
     private int lenght;
     private boolean limbs;

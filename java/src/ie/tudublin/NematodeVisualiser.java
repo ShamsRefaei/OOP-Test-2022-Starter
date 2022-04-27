@@ -15,7 +15,11 @@ public class NematodeVisualiser extends PApplet
 	{		
 		if (keyCode == LEFT)
 		{
-		}		
+		}
+		
+		if (keyCode == RIGHT)
+		{
+		}
 	}
 
 

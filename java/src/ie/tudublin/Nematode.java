@@ -7,7 +7,7 @@ public class Nematode  extends PApplet{
 
     // create variables
     private String name;
-    private int lenght;
+    private int length;
     private boolean limbs;
     private String gender;
     private boolean eyes;
@@ -16,15 +16,15 @@ public class Nematode  extends PApplet{
     public Nematode(TableRow tr)
     {
         this(tr.getString("name"), 
-            tr.getInt("lenght"), 
+            tr.getInt("length"), 
             tr.getInt("limbs") == 1, 
             tr.getString("gender"), 
             tr.getInt("eyes") == 1);
     }
 
-    public Nematode(String name, int lenght, boolean limbs, String gender, boolean eyes) {
+    public Nematode(String name, int length, boolean limbs, String gender, boolean eyes) {
         this.name = name;
-        this.lenght = lenght;
+        this.length = length;
         this.limbs = limbs;
         this.gender = gender;
         this.eyes = eyes;
@@ -41,10 +41,10 @@ public class Nematode  extends PApplet{
         this.name = name;
     }
     public int getLenght() {
-        return lenght;
+        return length;
     }
     public void setLenght(int lenght) {
-        this.lenght = lenght;
+        this.length = lenght;
     }
     public boolean isLimbs() {
         return limbs;
